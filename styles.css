@@ -1,0 +1,771 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Chivo:ital,wght@0,100..900;1,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Chivo:ital,wght@0,100..900;1,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;   
+    margin: 0;   
+}
+ 
+input[type="number"] {
+    -moz-appearance: textfield;  
+}
+ 
+input[type="number"] {
+    appearance: none;  
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    color: #FFFFFF;
+    background: #000000;
+}
+
+
+
+.page1 {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.page1 nav {
+    font-family: "MuseoModerno", serif;
+    height: auto;
+    width: 85%;
+    background-color: #928DD30F;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2vw 2vw;
+    margin-top: 1.8vw;
+    list-style: none;
+    border-radius: 1vw;
+    border: 1px solid #928DD30F;
+
+}
+
+nav .first {
+    display: flex;
+    gap: 2vw;
+}
+
+nav .first li {
+    font-size: 1.1vw;
+}
+
+nav li {
+    transition: color 0.8s ease-;
+}
+
+nav li:hover {
+    color: #6D2C7B; 
+    border-radius: 0.4vw;
+}
+
+nav .middle {
+    font-family: "MuseoModerno", serif;
+    font-size: 2.6vw;
+    transition: color 0.6s ease-in-out;
+    transition: scale 0.8s ease-in-out;
+}
+
+nav .middle:hover {
+    color: #e986ffcb;
+    scale: 1.1;
+}
+
+.hero-page {
+    margin-top: 4.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-page h1 {
+    font-weight: 500;
+    font-size: 8vw;
+    line-height: 8vw;
+    font-family: chivo;
+    transition: color 0.8s ease-in;
+    text-align: center;
+
+}
+
+.hero-page h1:hover {
+    color: #6f6c70;
+    
+
+}
+
+.hero-page img {
+    height: 46vw;
+    width: 100%;
+    margin-top: 2vw;
+    object-fit: cover;
+    border-radius: 1.5vw;
+    transition: scale 0.9s ease-in-out;
+    transition: box-shadow 0.7s ease;
+}
+
+.hero-page img:hover {
+    scale: 0.99;
+    border: 3px solid #6D2C7B;
+    /* Add shadow on hover */
+}
+
+.page2 {
+    height: fit-content;
+    width: 100%;
+    padding: 1.5vw 2.8vw;
+
+}
+
+ 
+.card-div {
+    margin-top: 3vw;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.card {
+    height: auto;
+    width: 31%;
+    margin-bottom: 1vw;
+}
+
+.card img {
+    width: 100%;
+    height: 272;
+    border-radius: 0.1vw;
+    transition: border .4s ease-in-out;
+}
+
+.card img:hover {
+    border-bottom: 5px solid #6D2C7B;
+    border-left: 5px solid #6D2C7B;
+    transition: border .4s ease-in-out;
+}
+
+
+
+ 
+
+.card p {
+    font-family: Archivo;
+    font-weight: 300;
+    padding-bottom: 0.7vw;
+    color: rgba(255, 255, 255, 0.571);
+    font: 1vw;
+
+}
+
+.card .p1 {
+    color: white;
+    margin-top: 0.6vw;
+    font-size: 1.2vw;
+}
+
+.page3 {
+    height:fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3vw;
+}
+
+.page3 h1 {
+    font-size: 4vw;
+    font-weight: 400;
+    font-family: archivo;
+    padding-bottom: 0.3vw;
+}
+.page3 .left{
+    width: 30%;
+}
+.page3 .left button{   
+        display: flex  ;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2vw;
+        background-color: rgba(146, 141, 211, 1);
+        font-family: archivo;
+        font-weight: 400;
+        font-size: 1vw;
+        padding: 0.8vw 2vw;
+        border-radius: 0.9vw;
+        border: 1px solid black;
+}
+.page3 p {
+    font-size: 1.3vw;
+    font-family: archivo;
+    font-weight: 200;
+}
+.page3 .right{
+    width: 60%;
+    height: fit-content;
+}
+.page3 .right  img{
+    /* height: 10%; */
+    width: 100%;
+}
+.page4{
+    padding: 3vw;
+    height: auto;
+    width: 100%;
+}
+.page4 h1{
+    margin-top: 5vw;
+    font-family: "archivo";
+    letter-spacing: -2%;
+
+    width: 60vw;
+    font-size: 4vw;
+    line-height: 4vw;
+}
+.page4 img{
+    margin-top: 3vw;
+    height: 52vw;
+    width: 100%;
+}
+.page5{
+    padding: 5vw 3vw;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.page5 h1{
+    font-size: 1.8vw;
+    font-family: "archivo"; 
+    font-weight: 400;
+}
+.page5 p{
+    font-size: 1.2vw;
+    font-family: "archivo";
+    font-weight: 200;
+}
+
+.form{
+    margin: 6vw 0;
+    height: 44vw;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form h2{
+    font-size: 1.8vw;
+    font-family: "archivo";
+    font-weight: 400;
+    margin-bottom: 0.8vw;
+    
+}
+.form p{
+    font-size: 0.9vw;
+    font-family: "archivo";
+    font-weight: 200;
+}
+input{
+    color: #676464;
+    margin-top: 1.8vw;
+    height: 4vw;
+    width: 4vw;
+    font-size: 2vw;
+    text-align: center;
+    /* padding-left: 1vw; */
+    justify-content: center;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 0.5vw;
+    margin-left: .4vw;
+}
+
+.form button{
+    margin-top: 2.5vw;
+    background-color: #928DD3;
+    padding: 0.7vw 10vw;
+    border: none;
+    border-radius: 0.5vw;
+    transition: 0.3s ease;
+}
+.form button:hover{
+    color: white;
+    background: #928DD3;
+}
+.form h4{
+    margin-top: 2vw;
+    color: #928DD3;
+    font-family: "MuseoModerno", serif;
+    font-weight: 400;
+}
+footer {
+    padding: 3vw;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    text-align: center;
+    font-size: 2.1vw;
+    font-weight: 300;
+    font-family: "archivo";
+}
+footer .input{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 1vw;
+    margin-bottom: 2vw;
+}
+footer .input input{
+    width: 30vw;
+    height: 2.8vw;
+    text-align: left;
+    font-size: 0.9vw;
+    font-family: "archivo";
+
+
+}
+footer .input button{
+    background-color: #928DD3;
+    position: relative;
+    top: 1vw;
+    font-size: 1.2vw;
+  padding: 0.8vw 2vw;
+    font-family: "archivo";
+    border-radius: 0.6vw;
+}
+footer .input button:hover{
+    background-color: #b6b2f6;
+    color: white;
+}
+
+footer .socials{  
+width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 1vw;
+}
+footer .socials i{
+    /* font-size: 8vw; */
+    /* width: 3vw; */
+    scale: 2;
+}
+#facebook, #insta, #x{
+    font-size: 3.5vw;
+} 
+#x:hover{
+    color: #8e87f6;
+}
+#facebook:hover{
+    color: #8e87f6;
+}
+#insta:hover{
+    color: #8e87f6;
+}
+
+
+@media (max-width: 460px) {
+
+
+    .page1 nav {
+        padding: 0.2vw 2.8vw;
+
+    }
+
+    nav .first {
+        gap: 1.5vw;
+    }
+
+    nav .first li {
+        font-size: 2vw;
+        transition: background-color 0.8s ease-;
+    }
+
+    nav .last li {
+        font-size: 2.6vw;
+    }
+
+    nav .middle {
+        font-size: 3.2vw;
+    }
+
+
+    .hero-page {
+        margin-top: 6.5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-page h1 {
+        font-size: 8vw;
+        font-family: chivo;
+        transition: color 0.8s ease-in;
+        /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+
+    }
+
+    .hero-page h1:hover {
+        /* color: #cbaaf1; */
+        text-shadow: 4px 4px 8px rgba(153, 70, 248, 0.678);
+
+    }
+
+    .hero-page img {
+        width: 98%;
+        margin-top: 2.8vw;
+
+    }
+
+    .hero-page img:hover {
+        scale: 0.95;
+        box-shadow: 0 8px 29px rgba(203, 170, 241, 0.6);
+        /* Add shadow on hover */
+
+
+    }
+
+    .page2 h2 {
+        font-size: 7vw;
+    }
+
+    .card {
+        width: 100%;
+        height: 30vh;
+        margin-bottom: 19vw;
+
+    }
+
+    .card p {
+        
+        font-family: Archivo;
+        font-size: 2.5vw;
+        font-weight: 500;
+        padding-bottom: 0.7vw;
+        color: rgba(255, 255, 255, 1);
+
+    }
+
+    .card .p1 {
+        margin-top: 0.6vw;
+        font-size: 3vw;
+    }
+
+
+    .button1 {
+        padding: 1vw 1.4vw;
+        margin-top: 0.7vw;
+        font-size: 2vw;
+
+    }
+
+    .button1:hover {
+        background-color: #8e87f6;
+        color: white;
+    }
+
+    .page3 {
+
+        padding: 1vw 0 3vw 15vw;
+    }
+
+    .page3 h3 {
+        font-size: 3.8vw;
+
+    }
+
+    .page3 p {
+        font-size: 2.1vw;
+    }
+
+    .page5 h1{
+        font-size: 3vw;
+        font-family: "archivo"; 
+        font-weight: 400;
+    }
+    .page5 p{
+        font-size: 2vw;
+        font-family: "archivo";
+        font-weight: 200;
+    }
+    
+
+    .form {
+        margin: 6vw 0;
+        height: 52vw;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form h2 {
+        font-size: 4.8vw;
+        font-family: "MuseoModerno", serif;
+
+    }
+    .form p{
+        font-size: 2vw;
+    }
+
+    input { 
+        margin-top: 2.2vw;
+        height: 7vw;
+        width: 7vw;
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    .form button {
+        margin-top: 4vw;
+        padding: 0.7vw 13vw;
+
+    }
+
+    .form h4 {
+        margin-top: 3vw; 
+    }
+
+footer .input input{ 
+    padding-left: 2vw;
+    height: 4.1vw;
+    text-align: left;
+    font-size: 2vw; 
+}
+footer .input button{ 
+    top: 1vw;
+    font-size: 2.2vw; 
+}
+ 
+
+footer .socials{  
+width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 1vw;
+}
+ 
+#facebook, #insta, #x{
+    font-size: 5.5vw;
+} 
+ 
+
+}
+
+@media (max-width: 880px) {
+
+
+    .page1 nav {
+        padding: 0.2vw 2.8vw;
+
+    }
+
+    nav .first {
+        gap: 1.5vw;
+    }
+
+    nav .first li {
+        font-size: 2vw;
+        transition: background-color 0.8s ease-;
+    }
+
+    nav .last li {
+        font-size: 2.6vw;
+    }
+
+    nav .middle {
+        font-size: 3.2vw;
+    }
+
+
+    .hero-page {
+        margin-top: 6.5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-page h1 {
+        font-size: 8vw;
+        font-family: chivo;
+        transition: color 0.8s ease-in;
+        /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+
+    }
+
+    .hero-page img {
+        width: 98%;
+        margin-top: 2.8vw;
+
+    }
+
+    .hero-page img:hover {
+        scale: 0.95;
+        box-shadow: 0 8px 29px rgba(203, 170, 241, 0.6);
+        /* Add shadow on hover */
+
+
+    }
+
+    .page2 h2 {
+        font-size: 7vw;
+    }
+    .card {
+        height: auto;
+        width: 47%;
+        margin-bottom: 1vw;
+    }
+    
+    .card img {
+        width: 100%;
+        height: 272;
+        border-radius: 0.1vw;
+        transition: border .4s ease-in-out;
+    }
+    
+    .card img:hover {
+        border-bottom: 5px solid #6D2C7B;
+        border-left: 5px solid #6D2C7B;
+        transition: border .4s ease-in-out;
+    }
+
+    .button1 {
+        padding: 1vw 1.4vw;
+        margin-top: 0.7vw;
+        font-size: 2vw;
+
+    }
+
+    .button1:hover {
+        background-color: #8e87f6;
+        color: white;
+    }
+
+    .page3 {
+
+        padding: 1vw 0 3vw 15vw;
+    }
+
+    .page3 h3 {
+        font-size: 3.8vw;
+
+    }
+
+    .page3 p {
+        font-size: 2.1vw;
+    }
+
+    .page5 h1{
+        font-size: 3vw;
+        font-family: "archivo"; 
+        font-weight: 400;
+    }
+    .page5 p{
+        font-size: 2vw;
+        font-family: "archivo";
+        font-weight: 200;
+    }
+    
+
+    .form {
+        margin: 6vw 0;
+        height: 52vw;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form h2 {
+        font-size: 4.8vw;
+        font-family: "MuseoModerno", serif;
+
+    }
+    .form p{
+        font-size: 2vw;
+    }
+
+    input { 
+        margin-top: 2.2vw;
+        height: 7vw;
+        width: 7vw;
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    .form button {
+        margin-top: 4vw;
+        padding: 0.7vw 13vw;
+
+    }
+
+    .form h4 {
+        margin-top: 3vw; 
+    }
+
+footer .input input{ 
+    padding-left: 2vw;
+    height: 4.1vw;
+    text-align: left;
+    font-size: 2vw; 
+}
+footer .input button{ 
+    top: 1vw;
+    font-size: 2.2vw; 
+}
+ 
+
+footer .socials{  
+width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 1vw;
+}
+ 
+#facebook, #insta, #x{
+    font-size: 5.5vw;
+} 
+ 
+
+}
